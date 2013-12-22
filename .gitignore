@@ -1,0 +1,30 @@
+# Editor temporary flies
+*~
+*.swp
+
+# OS Filer's file
+*/.DS_Store
+*/Thumbs.db
+
+*.sass-cache/*
+node_modules/*
+
+# bower install library
+libs/*/_config.yml
+libs/*/.bower.json
+libs/*/bower.json
+libs/*/.gitignore
+libs/*/component.json
+libs/*/composer.json
+libs/*/package.json
+libs/*/README.md
+libs/*/CONTRIBUTING.md
+libs/*/BUILD.md
+libs/*/Gemfile
+libs/*/Gemfile.lock
+
+# FontAwesome
+libs/labjs/tests
+libs/font-awesome/scss
+libs/font-awesome/less
+libs/font-awesome/src
