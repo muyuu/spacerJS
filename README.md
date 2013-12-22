@@ -13,5 +13,5 @@ space key appearance custom for fixed header site
 - read spacerJS
   ``<script src="js/spacer.min.js></script>"``
 - set
-  ``$('.headerNav').spacer();
+  ``$('.headerNav').spacer();``
 
