@@ -1,0 +1,55 @@
+@charset "UTF-8"
+
+// layout valiable
+$headerNavHeight: 40px * 3
+
+body
+  &:before
+    content: ""
+    display: block
+    height: $headerNavHeight
+
+.headerNav
+  position: fixed
+  z-index: 10
+  top: 0
+  width: 100%
+  height: $headerNavHeight
+  // background: rgba($green, 0.6)
+  background: $color01
+  text-align: center
+  line-height: $headerNavHeight
+  // -webkit-filter: blur(120px)
+  // filter: blur(120px)
+  p
+    margin: 0
+  #toggleclass
+    position: fixed
+    right: 4em
+    top: 0
+
+.pageHeader,.pageFooter
+  text-align: center
+
+.pageHeader
+  background: $color02
+  padding: 3em 0
+  h1
+    color: $color05
+    @include text-shadow(5px, 5px, 0px, rgba(0,0,0,0.6))
+    font-family: 'Source Code Pro', sans-serif
+    font-size: 5em
+    font-weight: bold
+
+.pageFooter
+  margin: 1em 0 0
+  padding: 3em
+  background: $color01
+  color: $color05
+  a
+    color: $color05
+
+.wrapper
+  width: $content-width
+  margin: auto
+

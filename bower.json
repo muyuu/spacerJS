@@ -1,0 +1,19 @@
+{
+  "name": "spacer.js",
+  "version": "0.0.1",
+  "main": "spacer.min.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "libs/*"
+  ],
+  "devDependencies": {
+    "jquery": "1.9.1",
+    "labjs": "*",
+    "font-awesome": "~4.0.3"
+  },
+  "exportsOverride": {
+    "jquery": "jquery.min.js",
+    "labjs": "LAB.min.js"
+  }
+}
